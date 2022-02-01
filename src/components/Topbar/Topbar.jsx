@@ -10,7 +10,7 @@ const Topbar = ({ setMenuOpen, menuOpen }) => {
           <a href="#intro" className="logo">My Portfolio</a>
           <div className="itemContainer">
             <Person className="icon" />
-            <a href="https://api.whatsapp.com/send?phone=6285157455371&amp;text=Hello%20,I%20wanna%20ask%20something%20about%20this%20website.%20Can%20you%20help%20me?%0D%0A%0AName%3A%20%0D%0AQuestion%3A%20%0D%0AEmail%3A%20" className="linkWA" target="_blank" rel="noreferrer">+62 851 - 5745 - 5371</a>
+            <a href="https://api.whatsapp.com/send?phone=6285157455371&amp;text=Hello%20,I%20wanna%20ask%20something%20about%20this%20website.%20Can%20you%20help%20me?%0D%0A%0AName%3A%20%0D%0AQuestion%3A%20%0D%0AEmail%3A%20" className="linkWA">+62 851 - 5745 - 5371</a>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
