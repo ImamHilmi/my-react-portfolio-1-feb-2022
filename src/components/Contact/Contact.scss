@@ -1,4 +1,4 @@
-
+@import "../../global.scss";
 
     .contact {
         background: linear-gradient(
@@ -7,6 +7,36 @@
             #FBF8F1 75%
             );
         display: flex;
+
+        @include mobile {
+            flex-direction: column;
+
+            .left {
+                display: none;
+            }
+
+            .right {
+                width: 450px;
+
+                h2 {
+                    margin-bottom: 5px;
+                }
+
+                form {
+                    
+                    input{
+                        margin-bottom: 5px;
+                    }
+
+                    textarea {
+                        margin-bottom: 5px;
+                    }
+                    button {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
 
         .left {
             flex: 1;

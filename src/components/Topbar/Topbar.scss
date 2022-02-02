@@ -10,6 +10,28 @@
         z-index: 3;
         transition: all 1s ease;
 
+        @include mobile {
+            .wrapper {
+
+                .left {
+
+                    .itemContainer{
+                        display: none;
+
+                        .icon {
+                            display: none;
+                        }
+                        a {
+                            display: none;
+                        }
+                        span{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
         .wrapper {
             padding: 10px 30px;
             display: flex;
